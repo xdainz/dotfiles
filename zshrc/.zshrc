@@ -53,6 +53,8 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # aliases
 alias vim=nvim
 alias ls='ls --color'
+alias startdb='docker start oracle-xe'
+alias stopdb='docker stop oracle-xe'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -60,3 +62,6 @@ alias ls='ls --color'
 # shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+
+# exports
+export MANPAGER='nvim +Man!'
