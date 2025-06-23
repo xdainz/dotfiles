@@ -1,8 +1,12 @@
 {
 	"logo": {
-		"source":"~/dotfiles/fastfetch/.config/fastfetch/budew.png",
+		"source":"~/dotfiles/fastfetch/.config/fastfetch/bg.png",
 		"type": "kitty",
-		"height": 12
+		"height": 11,
+		"padding":{
+			"left":1,
+			"top": 1
+			}
 	},
 	"modules": [
 		"title",
