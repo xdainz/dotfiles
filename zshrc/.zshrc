@@ -55,6 +55,8 @@ alias vim=nvim
 alias ls='ls --color'
 alias startdb='docker start oracle-xe'
 alias stopdb='docker stop oracle-xe'
+alias xampp='sudo xampp'
+alias ani-cli='ani-cli -v'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -62,6 +64,10 @@ alias stopdb='docker stop oracle-xe'
 # shell integrations
 eval "$(fzf --zsh)"
 eval "$(zoxide init --cmd cd zsh)"
+eval "$(register-python-argcomplete pipx)"
 
 # exports
 export MANPAGER='nvim +Man!'
+
+# Created by `pipx` on 2025-05-15 06:33:20
+export PATH="$PATH:/home/dainz/.local/bin"
