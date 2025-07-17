@@ -2,20 +2,18 @@
     "layer": "top",
     "position": "top",
     "height": 32,
-    "spacing": 2,
+    "spacing": 1,
     "exclusive": true,
     "passthrough": false,
     "fixed-center": true,
 
     "modules-left": ["hyprland/workspaces"],
-    "modules-center": ["hyprland/window"],
+    "modules-center": ["clock"],
     "modules-right": [
         "pulseaudio#microphone",
         "pulseaudio",
-	"battery",
 	"network",
-        "clock",
-        "clock#date",
+	"battery",
         "custom/sep",
         "tray"
     ],
@@ -38,12 +36,7 @@
     },
 
     "clock": {
-        "tooltip": false,
-        "format": "{:%H:%M}"
-    },
-
-    "clock#date": {
-        "format": "{:L%a %d %b}",
+        "format": "{:%H:%M}",
         "tooltip-format": "<tt>{calendar}</tt>",
         "calendar": {
             "mode": "month",
