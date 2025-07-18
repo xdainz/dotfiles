@@ -11,6 +11,8 @@ PACKAGES=(
 	waybar
 	wofi
 	pulseaudio
+	pavucontrol
+	brightnessctl
 	zoxide
 	ani-cli
 	vlc
@@ -20,6 +22,13 @@ PACKAGES=(
 	vencord
 	visual-studio-code-bin
 	stow
+	nautilus
+	ttf-jetbrains-mono-nerd
+	noto-fonts
+	noto-fonts-cjk
+	noto-fonts-emoji
+	noto-fonts-extra
+	blueman
 	)
 is_installed(){
 	yay -Qi "$1" &> /dev/null
