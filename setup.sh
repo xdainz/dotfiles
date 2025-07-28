@@ -10,7 +10,7 @@ PACKAGES=(
 	hyprshot
 	waybar
 	wofi
-	pulseaudio
+	pipewire
 	pavucontrol
 	brightnessctl
 	zoxide
