@@ -53,6 +53,7 @@ zstyle ':fzf-tab:complete:cd:*' fzf-preview 'ls --color $realpath'
 # aliases
 alias vim=nvim
 alias ls='ls --color'
+alias grep='grep --color=auto'
 alias startdb='docker start oracle-xe'
 alias stopdb='docker stop oracle-xe'
 alias xampp='sudo xampp'
