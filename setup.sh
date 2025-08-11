@@ -28,6 +28,8 @@ PACKAGES=(
 	noto-fonts-cjk
 	noto-fonts-emoji
 	noto-fonts-extra
+	ttf-roboto
+	ttf-roboto-mono
 	blueman
 	fastfetch
 	imagemagick
