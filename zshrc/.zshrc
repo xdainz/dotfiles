@@ -58,6 +58,7 @@ alias startdb='docker start oracle-xe'
 alias stopdb='docker stop oracle-xe'
 alias xampp='sudo xampp'
 alias ani-cli='ani-cli -v'
+alias ff='fastfetch'
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh

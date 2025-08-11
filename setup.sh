@@ -29,6 +29,8 @@ PACKAGES=(
 	noto-fonts-emoji
 	noto-fonts-extra
 	blueman
+	fastfetch
+	imagemagick
 	)
 is_installed(){
 	yay -Qi "$1" &> /dev/null
