@@ -3,15 +3,15 @@
   "layer": "top",
   "position": "top",
   "spacing": 0,
-  "height": 24,
+  "height": 22,
   "modules-left": ["clock"],
   "modules-center": ["hyprland/workspaces"],
   "modules-right": [
     "group/tray-expander",
     "bluetooth",
-    "network",
     "pulseaudio",
     "cpu",
+    "network",
     "battery",
     "power-profiles-daemon"
   ],
@@ -45,15 +45,15 @@
       "10": []
     }
   },
-  "cpu": {
-    "interval": 5,
-    "format": "󰍛",
-    "on-click": "alacritty -e btop"
-  },
   "clock": {
     "format": "{:%H:%M}",
     "format-alt": "{:L%d %B %Y}",
     "tooltip": false
+  },
+   "cpu": {
+    "interval": 1,
+    "format": "󰍛",
+    "on-click": "alacritty -e btop"
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
@@ -65,7 +65,6 @@
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
-    "spacing": 1,
     "on-click": "alacritty -e impala"
   },
   "battery": {
@@ -135,7 +134,6 @@
     "on-scroll-right": ""
   },
   "tray": {
-    "icon-size": 12,
-    "spacing": 17
+    "icon-size": 12
   }
 }
