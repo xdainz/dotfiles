@@ -1,5 +1,5 @@
 * {
-  background-color: #222;
+  background-color: #000;
   color: #FFFFFF;
 
   border: none;
@@ -30,36 +30,45 @@
 
 #cpu,
 #battery,
-#pulseaudio,
-#custom-omarchy,
-#custom-screenrecording-indicator,
-#custom-update {
+#pulseaudio{
   min-width: 12px;
-  margin: 0 7.5px;
+  margin: 0 1px;
 }
 
 #tray {
   margin-right: 16px;
 }
 
+#custom-expand-icon {
+  margin-right: 15px;
+}
+
 #bluetooth {
-  margin-right: 17px;
+  margin-right: 15px;
+}
+
+#pulseaudio{
+  margin-right: 10px;
+}
+
+#cpu{
+  margin-right: 15px;
 }
 
 #network {
-  margin-right: 13px;
+  margin-right: 18px;
 }
 
-#custom-expand-icon {
-  margin-right: 18px;
+#battery{
+  margin-right: 10px;
+}
+
+#power-profiles-daemon{
+  margin-right: 5px;
 }
 
 tooltip {
   padding: 2px;
-}
-
-#custom-update {
-  font-size: 10px;
 }
 
 #clock {
@@ -70,22 +79,3 @@ tooltip {
   opacity: 0;
 }
 
-#custom-screenrecording-indicator {
-  min-width: 12px;
-  margin-left: 5px;
-  font-size: 10px;
-  padding-bottom: 1px;
-}
-
-#custom-screenrecording-indicator.active {
-  color: #a55555;
-}
-
-#custom-voxtype {
-  min-width: 12px;
-  margin: 0 0 0 7.5px;
-}
-
-#custom-voxtype.recording {
-  color: #a55555;
-}
