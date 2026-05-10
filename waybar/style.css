@@ -44,23 +44,23 @@
 }
 
 #bluetooth {
-  margin-right: 15px;
+  margin-right: 12px;
 }
 
 #pulseaudio{
-  margin-right: 10px;
-}
-
-#cpu{
   margin-right: 15px;
 }
 
+#cpu{
+  margin-right: 13px;
+}
+
 #network {
-  margin-right: 18px;
+  margin-right: 15px;
 }
 
 #battery{
-  margin-right: 10px;
+  margin-right: 5px;
 }
 
 #power-profiles-daemon{

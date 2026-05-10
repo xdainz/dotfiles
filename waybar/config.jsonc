@@ -53,7 +53,7 @@
    "cpu": {
     "interval": 1,
     "format": "󰍛",
-    "on-click": "alacritty -e btop"
+    "on-click": "kitty -e btop"
   },
   "network": {
     "format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"],
@@ -65,7 +65,7 @@
     "tooltip-format-ethernet": "⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
     "interval": 3,
-    "on-click": "alacritty -e impala"
+    "on-click": "kitty -e impala"
   },
   "battery": {
     "format": "{capacity}% {icon}",
@@ -103,11 +103,11 @@
     "format-connected": "󰂱",
     "format-no-controller": "",
     "tooltip-format": "Devices connected: {num_connections}",
-    "on-click": "alacritty -e bluetui"
+    "on-click": "kitty -e bluetui"
   },
   "pulseaudio": {
     "format": "{icon}",
-    "on-click": "alacritty -e wiremix",
+    "on-click": "kitty -e wiremix",
     "on-click-right": "pamixer -t",
     "tooltip-format": "Playing at {volume}%",
     "scroll-step": 5,
